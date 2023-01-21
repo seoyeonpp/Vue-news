@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-for="(ask, index) in asks" :key="index">{{ ask.title }}</div>
+        <div v-for="ask in asks" :key="ask">{{ ask.title }}</div>
     </div>
 </template>
 
