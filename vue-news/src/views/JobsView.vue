@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-for="job in this.$store.state.jobs" :key="job">{{ job.domain }}</div>
+        <div v-for="job in this.$store.state.jobs" :key="job">{{ job.title }}</div>
     </div>
 </template>
 
