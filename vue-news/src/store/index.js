@@ -20,7 +20,7 @@ export const store = new Vuex.Store({
         fetchedUser(state) {
             return state.user;
         },
-        fetchItem(state) {
+        fetchedItem(state) {
             return state.item;
         },
     },
